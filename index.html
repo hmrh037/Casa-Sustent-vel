@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Sustentável: Construa com Economia e Qualidade</title>
+    <meta name="description" content="Aprenda a construir sua casa sustentável de forma econômica, usando materiais ecológicos e técnicas inovadoras. Guia prático e acessível!">
+    <meta property="og:title" content="Casa Sustentável: Construa com Economia e Qualidade">
+    <meta property="og:description" content="Economize até 50% na construção da sua casa e adote práticas sustentáveis para um futuro melhor! Baixe agora o guia completo.">
+    <meta property="og:image" content="URL_REAL_DA_IMAGEM">
+    <meta property="og:url" content="URL_REAL_DA_PAGINA">
+    <meta property="og:type" content="website">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            background: url('URL_DA_IMAGEM_DE_FUNDO') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 700px;
+            background: rgba(34, 139, 34, 0.95);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(34, 139, 34, 0.5);
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        h1 {
+            color: #fff;
+            font-size: 34px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        h2 {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        
+        .benefits {
+            list-style: none;
+            padding: 0;
+            margin: 25px 0;
+        }
+        
+        .benefits li {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: transform 0.2s;
+        }
+        
+        .benefits li:hover {
+            transform: scale(1.05);
+        }
+        
+        .cta {
+            font-size: 22px;
+            font-weight: bold;
+            margin-top: 25px;
+            color: #fff;
+        }
+        
+        .btn-checkout {
+            display: inline-block;
+            background: #ffcc00;
+            color: #000;
+            padding: 15px 28px;
+            font-size: 22px;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 5px 15px rgba(255, 204, 0, 0.5);
+            margin-top: 20px;
+        }
+        
+        .btn-checkout:hover {
+            background: #e6b800;
+            transform: scale(1.08);
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📗 Casa Sustentável: Construa com Economia e Qualidade</h1>
+        <h2>Aprenda a reduzir custos e tornar sua casa ecológica sem abrir mão da qualidade!</h2>
+        <ul class="benefits">
+            <li>🌱 Técnicas sustentáveis que economizam até 50% na construção</li>
+            <li>🔨 Guia prático com materiais ecológicos e acessíveis</li>
+            <li>💡 Estratégias para obter incentivos financeiros e participar de licitações</li>
+            <li>🏠 Métodos para reduzir consumo de energia e água</li>
+            <li>🔥 Acesso imediato ao E-book completo!</li>
+        </ul>
+        <p class="cta">🚀 Transforme sua construção HOJE! Aproveite esta oferta exclusiva.</p>
+        <a href="https://checkout.url-do-produto.com" class="btn-checkout" aria-label="Finalizar compra do E-book">
+            🛒 Comprar Agora - Oferta Limitada
+        </a>
+        <p class="footer">⚠️ Promoção especial por tempo limitado! Não perca essa chance. ⚠️</p>
+    </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
