@@ -85,7 +85,8 @@
             margin-top: 25px;
             color: #fff;
         }
-        
+
+        /* Botão pulsante */
         .btn-checkout {
             display: inline-block;
             background: #ffcc00;
@@ -98,11 +99,18 @@
             transition: background 0.3s, transform 0.2s;
             box-shadow: 0 5px 15px rgba(255, 204, 0, 0.5);
             margin-top: 20px;
+            animation: pulse 1.5s infinite;
         }
         
         .btn-checkout:hover {
             background: #e6b800;
             transform: scale(1.08);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
         }
         
         .footer {
